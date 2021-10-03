@@ -208,9 +208,9 @@
 			"types": []
 		},
 		{
-			"name": "Cyan_mesh_frag",
+			"name": "DarkPink_mesh_frag",
 			"files": [
-				"Cyan_mesh.frag.d3d11"
+				"DarkPink_mesh.frag.d3d11"
 			],
 			"file_sizes": [
 				1
@@ -328,9 +328,33 @@
 			"types": []
 		},
 		{
-			"name": "Red_mesh_frag",
+			"name": "Purple_mesh_frag",
 			"files": [
-				"Red_mesh.frag.d3d11"
+				"Purple_mesh.frag.d3d11"
+			],
+			"file_sizes": [
+				1
+			],
+			"type": "shader",
+			"inputs": [
+				{
+					"name": "wnormal",
+					"type": "vec3"
+				}
+			],
+			"outputs": [
+				{
+					"name": "fragColor",
+					"type": "vec4[]"
+				}
+			],
+			"uniforms": [],
+			"types": []
+		},
+		{
+			"name": "SelectColor_mesh_frag",
+			"files": [
+				"SelectColor_mesh.frag.d3d11"
 			],
 			"file_sizes": [
 				1

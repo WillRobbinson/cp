@@ -29,7 +29,7 @@ float packFloat2(float f1, float f2)
 void frag_main()
 {
     float3 n = normalize(wnormal);
-    float3 basecol = float3(0.80000007152557373046875f, 0.118461124598979949951171875f, 0.269001424312591552734375f);
+    float3 basecol = float3(0.80000007152557373046875f, 0.0055471588857471942901611328125f, 0.540830194950103759765625f);
     float roughness = 0.5f;
     float metallic = 0.0f;
     float occlusion = 1.0f;

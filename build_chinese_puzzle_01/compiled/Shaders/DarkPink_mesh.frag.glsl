@@ -10,7 +10,7 @@ void main() {
 	float metallic;
 	float occlusion;
 	float specular;
-	basecol = vec3(0.8000000715255737, 0.11846112459897995, 0.26900142431259155);
+	basecol = vec3(0.8000000715255737, 0.005547158885747194, 0.5408301949501038);
 	roughness = 0.5;
 	metallic = 0.0;
 	occlusion = 1.0;

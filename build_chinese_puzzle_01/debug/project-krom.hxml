@@ -1,6 +1,6 @@
 -cp C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\Kha\Sources
 -cp C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\Kha\Backends\Krom
--cp C:\dev\cp\Sources
+-cp C:\dev\cp_dev\cp\Sources
 -cp C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\armory\Sources
 -cp C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\iron\Sources
 -cp C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\lib\zui\Sources
@@ -55,10 +55,10 @@
 -D kha_version=1810
 -D kha_project_name=chinese_puzzle_01_1_0_0
 -js krom\krom.js.temp
-armory.trait.internal.UniformsManager
---macro keep('armory.trait.internal.UniformsManager')
 armory.trait.internal.DebugConsole
 --macro keep('armory.trait.internal.DebugConsole')
 armory.trait.internal.Bridge
 --macro keep('armory.trait.internal.Bridge')
+armory.trait.internal.UniformsManager
+--macro keep('armory.trait.internal.UniformsManager')
 -main Main

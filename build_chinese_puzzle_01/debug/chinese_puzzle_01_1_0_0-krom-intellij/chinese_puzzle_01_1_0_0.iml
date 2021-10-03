@@ -17,7 +17,7 @@
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\Kha\Sources" isTestSource="false" />
       <sourceFolder url="file://C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\Kha\Backends\Krom" isTestSource="false" />
-      <sourceFolder url="file://C:\dev\cp\Sources" isTestSource="false" />
+      <sourceFolder url="file://C:\dev\cp_dev\cp\Sources" isTestSource="false" />
       <sourceFolder url="file://C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\armory\Sources" isTestSource="false" />
       <sourceFolder url="file://C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\iron\Sources" isTestSource="false" />
       <sourceFolder url="file://C:\dev\Armory3D\ArmorySDK2109a\ArmorySDK\lib\zui\Sources" isTestSource="false" />
