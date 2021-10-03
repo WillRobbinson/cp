@@ -11,8 +11,8 @@ void main() {
 	float occlusion;
 	float specular;
 	basecol = vec3(0.8000000715255737, 0.11846112459897995, 0.26900142431259155);
-	roughness = 0.5;
-	metallic = 0.0;
+	roughness = 0.20000000298023224;
+	metallic = 1.0;
 	occlusion = 1.0;
 	specular = 0.5;
 	n /= (abs(n.x) + abs(n.y) + abs(n.z));

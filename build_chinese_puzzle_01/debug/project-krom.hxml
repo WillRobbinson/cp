@@ -24,6 +24,7 @@
 -D rp_antialiasing=SMAA
 -D rp_supersampling=1
 -D rp_ssgi=SSAO
+-D rp_translucency
 -D js-es=6
 -D arm_assert_level=Warning
 -D arm_noembed

@@ -33,6 +33,7 @@ project.addDefine('rp_compositornodes');
 project.addDefine('rp_antialiasing=SMAA');
 project.addDefine('rp_supersampling=1');
 project.addDefine('rp_ssgi=SSAO');
+project.addDefine('rp_translucency');
 project.addDefine('js-es=6');
 project.addDefine('arm_assert_level=Warning');
 project.addDefine('arm_noembed');

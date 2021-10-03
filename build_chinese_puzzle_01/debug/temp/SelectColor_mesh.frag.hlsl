@@ -34,17 +34,22 @@ void frag_main()
     float metallic = 0.0f;
     float occlusion = 1.0f;
     float specular = 0.5f;
+    float opacity = 0.2497999966144561767578125f;
+    if (opacity < 0.99989998340606689453125f)
+    {
+        discard;
+    }
     n /= ((abs(n.x) + abs(n.y)) + abs(n.z)).xxx;
-    float2 _96;
+    float2 _104;
     if (n.z >= 0.0f)
     {
-        _96 = n.xy;
+        _104 = n.xy;
     }
     else
     {
-        _96 = octahedronWrap(n.xy);
+        _104 = octahedronWrap(n.xy);
     }
-    n = float3(_96.x, _96.y, n.z);
+    n = float3(_104.x, _104.y, n.z);
     fragColor[0] = float4(n.xy, roughness, packFloatInt16(metallic, 0u));
     fragColor[1] = float4(basecol, packFloat2(occlusion, specular));
 }
