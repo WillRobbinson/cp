@@ -1,0 +1,13 @@
+#version 100
+precision mediump float;
+precision highp int;
+
+void main()
+{
+    highp float opacity = 0.2497999966144561767578125;
+    if (opacity < 1.0)
+    {
+        discard;
+    }
+}
+

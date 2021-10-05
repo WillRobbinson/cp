@@ -56,10 +56,14 @@
 -D kha_version=1810
 -D kha_project_name=chinese_puzzle_01_1_0_0
 -js krom\krom.js.temp
-armory.trait.internal.DebugConsole
---macro keep('armory.trait.internal.DebugConsole')
-armory.trait.internal.Bridge
---macro keep('armory.trait.internal.Bridge')
 armory.trait.internal.UniformsManager
 --macro keep('armory.trait.internal.UniformsManager')
+arm.MattTrait
+--macro keep('arm.MattTrait')
+armory.trait.internal.Bridge
+--macro keep('armory.trait.internal.Bridge')
+armory.trait.internal.DebugConsole
+--macro keep('armory.trait.internal.DebugConsole')
+arm.node.GreenNodeTree
+--macro keep('arm.node.GreenNodeTree')
 -main Main
